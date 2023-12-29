@@ -4,4 +4,4 @@ Windows Registry Editor Version 5.00
 @="start coding"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\StartCoding\command]
-@="cmd.exe /s /k pushd \"%V\" && cd env && cd Scripts && activate && cd ..\\.. && code ."
+@="cmd.exe /s /k pushd \"%V\" && code . && cd env && cd Scripts && activate && cd ..\\.. "
